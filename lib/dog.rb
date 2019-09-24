@@ -19,10 +19,15 @@ class Dog
     
   end
   
+  def talk
+   binding.pry 
+   puts "bark"
+  end
   
   
   
   
   
-  end# Add your code here
-  
+  end
+  susan = Dog.new 
+  susan.talk
