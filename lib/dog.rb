@@ -29,5 +29,5 @@ class Dog
   
   
   end
-  susan = Dog.new 
+  susan = Dog.new("susan")
   susan.talk
