@@ -30,5 +30,5 @@ class Dog
   
   
   end
-  susan = Dog.new("susan")
-  susan.talk
+  object = Dog.new("susan")
+  object.talk
